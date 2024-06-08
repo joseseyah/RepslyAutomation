@@ -1,3 +1,20 @@
+/**
+Bismillah
+ * Repsly Automation Project
+ * Author: Joseph Hayes
+ * 
+ * This script automates the transformation of a rota into a structured table format
+ * in Google Sheets using Google Apps Script. It processes data from an existing sheet,
+ * extracts relevant information, and generates a new sheet with a standardized table.
+ * 
+ * Functions:
+ * - generateTable(): Main function to generate the table.
+ * - updateSchedule(): Converts employee names to representative IDs.
+ * - getEmployeeNames(): Retrieves employee names from a specified sheet.
+ * - holidays(): Placeholder for custom holiday handling logic.
+ */
+
+
 function generateTable() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   var originalSheet = spreadsheet.getSheetByName("Sheet1");
