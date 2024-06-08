@@ -1,3 +1,28 @@
+
+Conversation opened. 3 messages. 1 message unread.
+
+Skip to content
+Using Gmail with screen readers
+1 of 10,772
+Re: [EXTERNAL EMAIL]Fwd:
+Inbox
+
+Thomas Lloyd
+2:43 PM (7 minutes ago)
+if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name
+
+Thomas Lloyd
+2:44 PM (6 minutes ago)
+if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name
+
+Thomas Lloyd
+Attachments
+2:50 PM (0 minutes ago)
+to me
+
+
+ One attachment
+  •  Scanned by Gmail
 /**
 Bismillah
  * Repsly Automation Project
@@ -17,7 +42,7 @@ Bismillah
 
 function generateTable() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var originalSheet = spreadsheet.getSheetByName("Sheet1");
+  var originalSheet = spreadsheet.getSheetByName("repslyWeek");
 
   // Specify the sheet name for the new table
   var newSheetName = "Generated Table";
@@ -130,7 +155,7 @@ function updateSchedule() {
 
 function getEmployeeNames() {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var originalSheet = spreadsheet.getSheetByName("test"); // Change "test" to your sheet name
+  var originalSheet = spreadsheet.getSheetByName("repslyWeek"); // Change "test" to your sheet name
   var data = originalSheet.getRange(3, 1, originalSheet.getLastRow() - 2, 1).getValues(); // Adjust range as necessary
 
   var employeeNames = [];
@@ -140,16 +165,8 @@ function getEmployeeNames() {
     if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name !== 'Retail Expert'&& name !== 'Store Manager' && name !== 'Retail Stylist'&& name !== 'Stylist'&& name !== 'Expert'&& name !== 'Daily Total' && name !== 'Week '&& name !== 'Daily Total '&& name !== 'FTE' && name !== 'FTE ') {
       employeeNames.push(name);
     }
-   
-
   }
   return employeeNames;
 }
-
-
-
-function holidays(){
-
-}
-
-
+TESTER.TXT
+Displaying TESTER.TXT.
