@@ -143,5 +143,3 @@ function getEmployeeNames() {
   }
   return employeeNames;
 }
-TESTER.TXT
-Displaying TESTER.TXT.
