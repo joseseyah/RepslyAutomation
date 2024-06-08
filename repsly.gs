@@ -137,9 +137,11 @@ function getEmployeeNames() {
   for (var i = 0; i < data.length; i++) {
     var name = data[i][0];
     // Check if the entry is a string and is not a header or invalid entry
-    if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name !== 'Retail Expert'&& name !== 'Store Manager' && name !== 'Retail Stylist'&& name !== 'Stylist'&& name !== 'Expert''&& name !== 'Daily Total' '&& name !== 'Week ''&& name !== 'Daily Total ') {
+    if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name !== 'Retail Expert'&& name !== 'Store Manager' && name !== 'Retail Stylist'&& name !== 'Stylist'&& name !== 'Expert'&& name !== 'Daily Total' && name !== 'Week '&& name !== 'Daily Total '&& name !== 'FTE' && name !== 'FTE ') {
       employeeNames.push(name);
     }
+   
+
   }
   return employeeNames;
 }
