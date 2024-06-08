@@ -1,28 +1,3 @@
-
-Conversation opened. 3 messages. 1 message unread.
-
-Skip to content
-Using Gmail with screen readers
-1 of 10,772
-Re: [EXTERNAL EMAIL]Fwd:
-Inbox
-
-Thomas Lloyd
-2:43 PM (7 minutes ago)
-if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name
-
-Thomas Lloyd
-2:44 PM (6 minutes ago)
-if (typeof name === 'string' && isNaN(name) && name !== 'Team' && name !== 'Week' && name !== 'Trading Hours' && name !== 'ASM' && name !== 'Supervisor' && name
-
-Thomas Lloyd
-Attachments
-2:50 PM (0 minutes ago)
-to me
-
-
- One attachment
-  •  Scanned by Gmail
 /**
 Bismillah
  * Repsly Automation Project
